@@ -39,7 +39,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - "*.md"
   - _drafts
   - .gitignore
   - .github
@@ -56,9 +55,9 @@ plugins:
 
 # GitHub Pages metadata
 github:
-  repository: "mymedvia/lumbar-disc-herniation-site"
+  repository: "xiebingcheng/lumbar-disc-herniation-site1"
   owner:
-    name: "myMedVia"
+    name: "xiebingcheng"
     email: "contact@xxx.com"
 
 # Markdown processor
