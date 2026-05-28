@@ -1,0 +1,55 @@
+---
+---
+{% if page.schema_type == 'MedicalCondition' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalCondition",
+  "name": "Lumbar disc herniation",
+  "alternateName": ["Herniated disc", "Slipped disc", "Protruded disc"],
+  "code": "ICD-10: M51.2",
+  "affectedBodyLocation": {
+    "@type": "BodyLocation",
+    "name": "Lumbar spine (lower back)"
+  },
+  "signOrSymptom": [
+    {"@type": "MedicalSignOrSymptom", "name": "Lower back pain"},
+    {"@type": "MedicalSignOrSymptom", "name": "Sciatica"},
+    {"@type": "MedicalSignOrSymptom", "name": "Numbness in legs"},
+    {"@type": "MedicalSignOrSymptom", "name": "Muscle weakness"}
+  ],
+  "possibleTreatment": [
+    {"@type": "MedicalProcedure", "name": "Microdiscectomy"},
+    {"@type": "MedicalProcedure", "name": "Endoscopic discectomy"},
+    {"@type": "MedicalProcedure", "name": "Spinal fusion"}
+  ],
+  "description": "Lumbar disc herniation occurs when the soft center of a spinal disc pushes through a tear in the tougher exterior casing, pressing on nerves and causing pain."
+}
+</script>
+{% elsif page.schema_type == 'FAQPage' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": {{ site.data.faq | jsonify }}
+}
+</script>
+{% elsif page.schema_type == 'BreadcrumbList' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": {{ page.breadcrumbs | jsonify }}
+}
+</script>
+{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalOrganization",
+  "name": "myMedVia",
+  "url": "https://xxx.com",
+  "description": "Cross-border medical acceleration service connecting international patients with top spine surgeons in China.",
+  "areaServed": "Worldwide"
+}
+</script>

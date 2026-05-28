@@ -1,0 +1,22 @@
+<div class="cost-comparison">
+  <table class="cost-table">
+    <thead>
+      <tr>
+        <th>Procedure</th>
+        <th>China</th>
+        <th>USA</th>
+        <th>UK</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in include.data %}
+        <tr>
+          <td>{{ row.procedure }}</td>
+          <td>{{ row.china }}</td>
+          <td>{{ row.usa }}</td>
+          <td>{{ row.uk }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

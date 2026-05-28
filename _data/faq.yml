@@ -1,0 +1,23 @@
+- question: "How long is the wait time for lumbar disc surgery in my country?"
+  answer: "In Canada and the UK, wait times for non-emergency spine surgery average 6-12 months. In the US, insurance pre-authorization can add 1-3 months. In China, we can typically schedule your MRI and surgery within 3-7 days of arrival."
+  category: "treatment"
+
+- question: "What treatments are available for lumbar disc herniation?"
+  answer: "Treatment options range from conservative approaches (physical therapy, medications, steroid injections) to surgical options (microdiscectomy, endoscopic discectomy, spinal fusion). The best option depends on your specific condition and severity."
+  category: "treatment"
+
+- question: "How much does lumbar disc surgery cost in China?"
+  answer: "Lumbar disc surgery in China typically costs 60-80% less than in Western countries. A microdiscectomy in China may cost $3,000-$8,000 USD, compared to $20,000-$50,000+ in the US or UK."
+  category: "cost"
+
+- question: "What is included in the myMedVia treatment package?"
+  answer: "Our package typically includes: medical consultation, MRI diagnosis, surgeon fees, hospital stay, medication during hospitalization, airport transfers, interpreter services, and coordination of all appointments."
+  category: "logistics"
+
+- question: "How do I prepare for medical travel to China?"
+  answer: "We assist with visa invitation letters, provide pre-travel medical guidance, help arrange accommodations, and assign a care coordinator who will assist you throughout your entire journey. Most patients need to plan for 2-3 weeks of travel."
+  category: "logistics"
+
+- question: "What is the recovery time after lumbar disc surgery?"
+  answer: "Recovery varies by procedure. Microdiscectomy patients typically resume light activities within 1-2 weeks and full activities within 4-6 weeks. Spinal fusion recovery is longer, typically 6-12 weeks for initial healing."
+  category: "recovery"

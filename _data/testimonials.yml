@@ -1,0 +1,17 @@
+- name: "Sarah M."
+  country: "Canada"
+  condition: "L4-L5 Microdiscectomy"
+  story: "After waiting 8 months for surgery in Canada, I contacted myMedVia. Within 2 weeks, I was in China, had my MRI, and had the surgery. The care was excellent and I was back home in 6 weeks, pain-free."
+  rating: 5
+
+- name: "James T."
+  country: "United Kingdom"
+  condition: "L5-S1 Herniated Disc"
+  story: "The NHS wait was going to be over a year. MyMedVia arranged everything - the hospital was modern, the surgeon experienced, and the cost was a fraction of what private treatment would have been in the UK."
+  rating: 5
+
+- name: "Michael R."
+  country: "United States"
+  condition: "Spinal Fusion L3-L5"
+  story: "My insurance deductible was $8,000 and surgery wait was 3 months. MyMedVia got me to China in under 2 weeks, and the total package was less than my deductible would have been."
+  rating: 5

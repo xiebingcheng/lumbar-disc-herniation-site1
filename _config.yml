@@ -1,0 +1,73 @@
+# Site metadata
+title: "myMedVia — Cross-Border Medical Acceleration"
+description: >-
+  myMedVia connects international patients with world-class spine surgeons in China.
+  Fast diagnosis, affordable treatment, seamless medical travel experience.
+url: "https://xxx.com"
+baseurl: ""
+lang: "en"
+
+# Author information
+author:
+  name: "myMedVia Medical Team"
+  email: "contact@xxx.com"
+  url: "https://xxx.com"
+
+# Collections
+collections:
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true
+  pages:
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      permalink: /:name/
+  - scope:
+      path: "treatment"
+    values:
+      layout: treatment
+
+# Build exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - "*.md"
+  - _drafts
+  - .gitignore
+  - .github
+
+# Keep files
+keep_files:
+  - assets/images
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-minify
+
+# GitHub Pages metadata
+github:
+  repository: "mymedvia/lumbar-disc-herniation-site"
+  owner:
+    name: "myMedVia"
+    email: "contact@xxx.com"
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Timezone
+timezone: Asia/Shanghai
+future: true

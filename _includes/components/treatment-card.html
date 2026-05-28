@@ -1,0 +1,9 @@
+<div class="treatment-card">
+  <h3>{{ include.title }}</h3>
+  <p>{{ include.description }}</p>
+  <ul>
+    {% for item in include.features %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</div>

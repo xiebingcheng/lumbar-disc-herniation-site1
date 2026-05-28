@@ -1,0 +1,29 @@
+<form class="contact-form" name="contact" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="contact">
+  <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="country">Country of Residence</label>
+    <input type="text" id="country" name="country" required>
+  </div>
+  <div class="form-group">
+    <label for="condition">Medical Condition</label>
+    <select id="condition" name="condition">
+      <option value="">Please select...</option>
+      <option value="lumbar-disc-herniation">Lumbar Disc Herniation</option>
+      <option value="cervical-disc">Cervical Disc Issue</option>
+      <option value="other">Other Spine Condition</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Send Message</button>
+</form>

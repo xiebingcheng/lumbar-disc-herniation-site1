@@ -1,0 +1,11 @@
+<section class="hero-section">
+  <div class="container">
+    <h1>{{ include.title }}</h1>
+    <p class="hero-subtitle">{{ include.subtitle }}</p>
+    <div class="hero-cta">
+      {% for button in include.buttons %}
+        <a href="{{ button.url }}" class="btn btn-{{ button.type }}">{{ button.label }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
